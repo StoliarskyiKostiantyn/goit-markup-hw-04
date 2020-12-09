@@ -67,7 +67,7 @@ img {
 .nav-list.adress {
   flex-basis: content;
   /*justify-content: flex-end;*/
-  margin-left: 331px;
+  margin-left: auto;
 }
 .nav-list-item .nav-tel
 /*.telephone*/ {
