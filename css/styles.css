@@ -66,7 +66,8 @@ img {
 }
 .nav-list.adress {
   flex-basis: content;
-  justify-content: flex-end;
+  /*justify-content: flex-end;*/
+  margin-left: 331px;
 }
 .nav-list-item .nav-tel
 /*.telephone*/ {
@@ -168,7 +169,7 @@ img {
 
 /*=============ADVANTEGES SECTION========*/
 .advanteges.container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .advanteges-list {
   display: flex;
@@ -208,7 +209,7 @@ img {
 
 /*=============WHATWEDO SECTION========*/
 .whatwedo.container {
-  margin-top: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .section-title {
@@ -422,8 +423,8 @@ img {
 
 /*=======================================PORTFOLIO==========================*/
 .portfolio.container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .buttons-list {
   display: flex;
@@ -488,6 +489,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 }
 
 .portfolio-card-category {
