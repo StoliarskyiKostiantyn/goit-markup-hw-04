@@ -44,7 +44,7 @@ img {
   margin-right: 95px;
 }
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -55,22 +55,20 @@ img {
 .nav-list {
   display: flex;
   align-items: center;
-  flex-basis: 1200px;
 }
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .header {
-  height: 80px;
   border-bottom: 2px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-list.adress {
   flex-basis: content;
-  /*justify-content: flex-end;*/
   margin-left: auto;
 }
-.nav-list-item .nav-tel
-/*.telephone*/ {
+.nav-list-item .nav-tel {
   display: block;
   width: max-content;
   height: max-content;
