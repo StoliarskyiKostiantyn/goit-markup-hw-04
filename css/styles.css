@@ -54,7 +54,7 @@ img {
 .navigation,
 .nav-list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -74,6 +74,7 @@ img {
   display: block;
   width: max-content;
   height: max-content;
+  align-items: baseline;
 }
 .current,
 .logo-text,
@@ -314,11 +315,6 @@ img {
   height: 20px;
   fill: #afb1b8;
 }
-
-box-shadow: 0px 2px 1px 0px #000000 20 %;
-box-shadow: 0px 1px 1px 0px #000000 14 %;
-box-shadow: 0px 1px 3px 0px #000000 12 %;
-
 /*============= END OURTEAM SECTION========*/
 
 /*============= PARTNERS SECTION========*/
@@ -372,6 +368,7 @@ box-shadow: 0px 1px 3px 0px #000000 12 %;
   width: max-content;
   height: max-content;
 }
+
 .contacts-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -413,7 +410,7 @@ box-shadow: 0px 1px 3px 0px #000000 12 %;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
@@ -424,7 +421,14 @@ box-shadow: 0px 1px 3px 0px #000000 12 %;
   margin-top: 12px;
   margin-left: 70px;
 }
+.footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color: var(--accent-color);
+}
 /*============= END FOOTER========*/
 
 /*=======================================PORTFOLIO==========================*/
@@ -490,6 +494,8 @@ box-shadow: 0px 1px 3px 0px #000000 12 %;
   background: var(--accent-color);
   color: white;
   cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-card-title {
