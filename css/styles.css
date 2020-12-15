@@ -54,7 +54,7 @@ img {
 .navigation,
 .nav-list {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -71,10 +71,10 @@ img {
   margin-left: auto;
 }
 .nav-list-item .nav-tel {
-  display: block;
+  display: flex;
   width: max-content;
   height: max-content;
-  align-items: baseline;
+  align-items: center;
 }
 .current,
 .logo-text,
@@ -460,6 +460,7 @@ img {
 .portfolio-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: 1px solid #000000;
 }
 .portfolio-card-text {
   display: block;
